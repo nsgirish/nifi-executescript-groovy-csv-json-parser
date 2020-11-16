@@ -1,1 +1,2 @@
-# nifi-groovy-csv-json-parser
+# A Groovy script to parse CSV data to JSON
+
