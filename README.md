@@ -2,7 +2,7 @@
 
 ## Summary
 
-### Apache NIFI provides controller services such as CSVReader, JSONRecordSetWriter which help to parse CSV data to JSON records. But CSVReader has following attributes which give runtime errors when the CSV data happens to contain the character assigned to them
+### Apache NIFI provides controller services such as CSVReader, JSONRecordSetWriter which help to parse CSV data to JSON records. But CSVReader has following attributes which give runtime errors when the CSV data happens to contain the value assigned to them
 
 - Quote Character (default value is ")
 - Escape Character (default value is \)
