@@ -1,4 +1,4 @@
-//IMPORTANT NOTE: ***THIS PARSER ASSUMES ALL CHARACTERS OF CSV RECORD IS OF STRING DATA TYPE ***
+//IMPORTANT NOTE: ***THIS PARSER ASSUMES ALL FIELDS OF CSV RECORD(S) IS OF STRING DATA TYPE ***
 
 import org.apache.commons.io.IOUtils
 import java.nio.charset.StandardCharsets
@@ -21,7 +21,7 @@ try
     
     //split csv data by row delimiter
     def rows = csvData.split(rowDelimiter)
-    
+        
     //get columsn headers
     def colHeaders = rows[0].split(colDelimiter)
     
