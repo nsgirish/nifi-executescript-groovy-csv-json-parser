@@ -74,7 +74,7 @@ try
 }
 catch(e)
 {
-  //add attributes containing error details 
+  //add attributes containing error details to debug erring row
   flowFile = session.putAttribute(flowFile,"csv_json_parse_error",e.toString())
   flowFile = session.putAttribute(flowFile,"current_row",rowInfo)
   
