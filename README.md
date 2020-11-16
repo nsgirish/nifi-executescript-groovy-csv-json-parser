@@ -9,5 +9,5 @@
 
 ### These attributes cannot be assigned as empty strings. 
 
-### In these scenarios we can use the inbuilt libraries of groovy language to write a simple CSV to JSON parser and run it via NIFI ExecuteScript processor 
+### In these scenarios we can use the native libraries of groovy language to write a simple CSV to JSON parser and run it via NIFI ExecuteScript processor 
 
